@@ -1,0 +1,12 @@
+.trans {
+    animation: dropTop 0.25s linear;
+}
+
+@keyframes dropTop {
+    0% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
